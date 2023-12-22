@@ -58,7 +58,7 @@ const Contacts = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>In your papa house</span>
+          <span>No. 73, Surulere, Lawanson Road</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
@@ -73,8 +73,8 @@ const Contacts = () => {
           transition={{ delay: 3, duration: 1 }}
         >
           <svg
-            width="350px"
-            height="350px"
+            width="300px"
+            height="300px"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

@@ -13,10 +13,9 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
          >JoshTheeDev</motion.span>
         <div className="social-links">
-          <a href="www.facebook.com"><img src="/assets/facebook.png" alt=""/></a>
-          <a href="www.facebook.com"><img src="/assets/instagram.png" alt=""/></a>
-          <a href="www.facebook.com"><img src="/assets/youtube.png" alt=""/></a>
-          <a href="www.facebook.com"><img src="/assets/dribbble.png" alt=""/></a>
+          <a href="https://github.com/Joshthefullstack/"><img src="/assets/github-svgrepo-com(1).png" alt=""/></a>
+          <a href="www.linkedin.com/in/josh-theedev-28426629a"><img src="/assets/linkedin-svgrepo-com.png" alt=""/></a>
+          <a href="www.facebook.com"><img src="/assets/gmail-svgrepo-com.png" alt=""/></a>
         </div>
       </div>
     </div>

@@ -5,29 +5,32 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "/assets/music.png",
-    desc: "Lorem ipsum decor delor. cornor reewte dolor ipsum denerator gorador rewadol nobal fredi asgard fuck you bitch i greeet you boss",
+    title: "Web3 Blockchain Landing Page",
+    img: "/assets/blockchain.png",
+    desc: "Transformed ready UI/UX Design of a Web3 Blockchain Landing Page for a client, and got a good review after, rechnology used for building it was React, it was responsive and fully functional.",
+    link: "https://github.com/Joshthefullstack/D-Apps-blockchain"
   },
   {
     id: 2,
-    title: "Next.js Commerce",
-    img: "/assets/music.png",
-    desc: "Lorem ipsum decor delor. cornor reewte dolor ipsum denerator gorador rewadol nobal fredi asgard fuck you bitch i greeet you boss",
+    title: "Learned",
+    img: "/assets/e-learning.png",
+    desc: "Learned is an online education platform, I built for the purpose of bridging the gaps between Nigerian primary schools and technology. I implemented both backend and frontend features, using Node.js and React",
+    link: "https://github.com/Joshthefullstack/Learned-ver-1"
   },
   {
     id: 3,
-    title: "Vanilla JS App",
-    img: "/assets/music.png",
-    desc: "Lorem ipsum decor delor. cornor reewte dolor ipsum denerator gorador rewadol nobal fredi asgard fuck you bitch i greeet you boss",
+    title: "Next.js Online Bookstore",
+    img: "/assets/bookstore.png",
+    desc: "Using Next.js Technology and Nest.js technology, I designed an online bookstore, where users, can come check out some of their favorite books and the prices, and admins can perform CRUD operations on different books.",
+    link: "https://github.com/Joshthefullstack/nestjs-application"
   },
 
-  {
-    id: 4,
-    title: "Music App",
-    img: "/assets/music.png",
-    desc: "Lorem ipsum decor delor. cornor reewte dolor ipsum denerator gorador rewadol nobal fredi asgard fuck you bitch i greeet you boss",
-  },
+  // {
+  //   id: 4,
+  //   title: "Music App",
+  //   img: "/assets/music.png",
+  //   desc: "Lorem ipsum decor delor. cornor reewte dolor ipsum denerator gorador rewadol nobal fredi asgard fuck you bitch i greeet you boss",
+  // },
 ];
 
 const Single = ({ item }) => {
@@ -50,7 +53,7 @@ const Single = ({ item }) => {
           <motion.div style={{ y }} className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>Live Demo</button>
+            <button href={item.link}>Github Link</button>
           </motion.div>
         </div>
       </div>
